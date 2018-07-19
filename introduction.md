@@ -8,23 +8,36 @@ can be found in [this repo](https://github.com/mozilla/firefox-data-docs).
 
 This documentation is divided into four main sections:
 
-### [Getting Started](concepts/getting_started.md)
+### [Getting Started with Telemetry Analysis](concepts/getting_started.md)
   This section provides a **quick introduction** to analyzing telemetry data.
   After reading these articles, you will be able to confidently perform analysis
   over telemetry data.
 
-### [Tools](tools/README.md)
+### [Data Tools](tools/README.md)
   Describes the tools we maintain to access and analyze product data.
 
-### [Cookbooks & Tutorials](cookbooks/README.md)
+### [Analysis Cookbooks & Tutorials](cookbooks/README.md)
   This section contains tutorials presented in a simple problem/solution format.
 
-### [Data Collection and Datasets](datasets/reference.md)
+### [Existing Datasets](datasets/reference.md)
   Describes all available data we have from our products.
   For each dataset, we include a description of the dataset's purpose,
   what data is included, how the data is collected,
   and how you can change or augment the dataset.
   You do not need to read this section end-to-end.
+
+### [Collecting New Evidence: **Shield**, **Delivery Console** and Other Tools](concepts/shield.md)
+
+  Note: "Shield" conflates several overlapping concepts
+
+  * [Off-Train Deployment Using **Delivery Console**](concepts/off_train_deployment.md)
+  * [Feature Experimentation using Shield](concepts/experimentation_using_shield.md)
+  * [Engineering Shield-Study `WebExtensionExperiments`](concepts/shield-engineering.md)
+  * [`shield-studies` Data Set](datasets/shield.md)
+
+  New Telemetry (other)
+
+  * [Creating and Deploying New Telemetry Probes](concepts/new_telemetry.md)
 
 ## Missing Documentation
 
