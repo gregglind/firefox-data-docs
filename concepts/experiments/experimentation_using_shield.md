@@ -16,8 +16,6 @@ then do those instead.
 
 You can do 10 of them in the time it would take to deploy code.
 
-
-
 ## Shield Studies WebExtensionExperiments 
 
 Shield Studies WebExtensionExperiments are the most expensive, high-touch path to gather data.
@@ -77,8 +75,6 @@ More questions:
         *  QA / Engineering Accpetance Plan.  (TODO: write and link)
 -  You are now building.  Your PHD should be approved. 
     +  Suggestion: [mozilla/shield-studies-addon-utils](https://github.com/mozilla/shield-studies-addon-utils) has specific engineering docs.
-    +  
-
-
+    
 
 
