@@ -38,6 +38,18 @@
     * [Active DAU Definition](cookbooks/active_dau.md)
     * [Retention Analysis](cookbooks/retention.md)
 
+* [Experimenting and Evidence](concepts/experiments/index.md)
+  * [I need help](concepts/experiments/get_help.md)
+  * ["I need a Shield Study"](concepts/experiments/need_shield_study.md)
+  * [Off Train Deployment Using Delivery Console](concepts/experiments/off_train_deployment.md)
+  * [Shield Program Overview](concepts/experiments/experimentation_using_shield.md)  
+  * [Deploying Code](concepts/experiments/deploying_code.md)
+  * [Surveys, Messaging, and Other User Tasks]()
+  * [Is My Project On Track?](concepts/experiments/is_my_project_on_track.md)
+  * [Shield Study Engineering](concepts/experiments/shield_study_engineering.md)
+  
+
+
 ---
 
 * [Dataset Reference](datasets/reference.md)

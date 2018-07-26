@@ -8,7 +8,7 @@ Note:  this is the same as the qa spec, engineering acceptance plan
     + land more in the tree.  does this need to be an addon?
     + use the logger
     + make a debugging pane that is pref controlled
-    + 
+
 - beginings
     + is the first install different?
         * introduction screen
