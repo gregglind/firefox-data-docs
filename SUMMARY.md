@@ -40,7 +40,9 @@
 
 * [Experimenting and Evidence (Shield)](concepts/experiments/index.md)
 
-  Processes 
+  * [Shield Program Overview](concepts/experiments/experimentation_using_shield.md) 
+
+  Tasks 
   
   * [I need help.](concepts/experiments/get_help.md)
   * [I need to make a decision using evidence.](concepts/experiments/index.md)
@@ -54,7 +56,6 @@
 
   Technical References
   
-  * [Shield Program Overview](concepts/experiments/experimentation_using_shield.md) 
   * [Shield Study WebExtension Engineering](concepts/experiments/shield_study_engineering.md)
   * [Deploying Code](concepts/experiments/deploying_code.md)
   * [Telemetry datasets `shield-study` and `shield-study-addon`]()

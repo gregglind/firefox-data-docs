@@ -26,18 +26,21 @@ This documentation is divided into four main sections:
   and how you can change or augment the dataset.
   You do not need to read this section end-to-end.
 
-### [Collecting Evidence: **Shield**, **Delivery Console** and Other Tools](concepts/shield.md)
+### [New Telemetry](concepts/experiments/new_telemetry.md)
+
+  * [Creating and Deploying New Telemetry Probes](concepts/experiments/new_telemetry.md)
+
+
+### [Collecting Evidence: **Shield**, **Delivery Console** and User Sentiment](concepts/shield.md)
 
   Note: "Shield" conflates several overlapping concepts:
 
   * [Off-Train Deployment Using **Delivery Console**](concepts/experiments/off_train_deployment.md)
   * [Feature Experimentation using Shield](concepts/experiments/experimentation_using_shield.md)
+  * [Surveys and other User Sentiment Tasks]()
   * [Engineering Shield-Study `WebExtensionExperiments`](concepts/experiments/shield-engineering.md)
   * [`shield-studies` Data Set](datasets/shield.md)
 
-  New Telemetry (other)
-
-  * [Creating and Deploying New Telemetry Probes](concepts/experiments/new_telemetry.md)
 
 ## Missing Documentation
 
