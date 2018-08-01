@@ -10,7 +10,7 @@ All engineering and process decisions in the Shield Program serve that goal.
 - Target Appropriate Users
 - Deploy Evidence Gathering Probes
 - In a 'Good Enough' Context
-- Make evidence-based decision about existing and potential product features.
+- Make evidence-based decisions about existing and potential product features.
 
 **Collect the cheapest, dirtiest evidence possible that will answer the question.**
 
@@ -24,17 +24,17 @@ All engineering and process decisions in the Shield Program serve that goal.
 
 0.  **Should I invest in it?** 
     
-    - quality code is wildly expensive
-    - Surveys (Attitudinal research) are cheap.
+    - Quality code is wildly expensive
+    - Surveys (Attitudinal Research) are cheap
 
-1. **It is built.  Is it good enough to launch in Firefox?**  
+1. **It is built. Is it good enough to launch in Firefox?**  
 
     Implies this flow:
     
-    -   lauch
+    -   launch
     -   watch for problems (crashes, bug reports) 
     -   measure / ensure expected success
-    -   rollback if not there.
+    -   rollback if not there
 
     Examples:
     
@@ -74,7 +74,7 @@ All engineering and process decisions in the Shield Program serve that goal.
 
 ### 2. Targeting Correct Users
 
-Correct probes from innappropriate users leads to incorrect decisions.
+The correct probes from inappropriate users leads to incorrect decisions.
 
 Be as cheap as possible.
 
@@ -122,15 +122,16 @@ Release is expensive.
 
 #### Do 'just enough' to support the probes
 
+- If a sketch is enough, do that.
 - If showing people a screenshot is enough, do that.
 - If a survey is enough, do that.
 - If making 'just a button' in the ui is enough, do that.
-- If a 'feature flag' that is pref-controlled is enough, do that
+- If a 'feature flag' that is pref-controlled is enough, do that.
 - If landing in nightly is enough, do that.
 - If the 'real' system would have a server, bundle data instead.
-- Don't translate
-- Consider 'windows-only' or 'osx-only'
-- Ignore edge cases
+- Don't translate.
+- Consider 'windows-only' or 'osx-only'.
+- Ignore edge cases.
 - Do 'just enough' to support the probes.
 
 
@@ -140,10 +141,10 @@ You have data from your deployment.
 
 It will not be perfect.
 
-Make decision, and move to the next iteration.
+Make a decision, and move to the next iteration.
 
 If you are not happy:
 - generate new choices
-- collect more (expensive, or better targeted) evidence
+- collect more (expensive or better targeted) evidence
 - return to step 1:  Define the Decision.
 
