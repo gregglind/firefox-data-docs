@@ -26,21 +26,19 @@ This documentation is divided into four main sections:
   and how you can change or augment the dataset.
   You do not need to read this section end-to-end.
 
-### [New Telemetry](concepts/experiments/new_telemetry.md)
+### [New Telemetry](datasets/new_data.md)
 
-  * [Creating and Deploying New Telemetry Probes](concepts/experiments/new_telemetry.md)
+  * [Creating and Deploying New Telemetry Probes](datasets/new_data.md)
 
 
-### [Collecting Evidence: **Shield**, **Delivery Console** and User Sentiment](concepts/shield.md)
+### [Collecting Evidence to Make Decisions: **Shield**, **Delivery Console** and User Sentiment]()
 
-  Note: "Shield" conflates several overlapping concepts:
+"Shield" conflates several overlapping concepts.
 
-  * [Off-Train Deployment Using **Delivery Console**](concepts/experiments/off_train_deployment.md)
-  * [Feature Experimentation using Shield](concepts/experiments/experimentation_using_shield.md)
-  * [Surveys and other User Sentiment Tasks]()
-  * [Engineering Shield-Study `WebExtensionExperiments`](concepts/experiments/shield-engineering.md)
-  * [`shield-studies` Data Set](datasets/shield.md)
-
+  * [Feature Experimentation using Shield](experiments/shield_design_process.md)
+  * [Off-Train Deployment Using **Delivery Console**](experiments/off_train_deployment.md)
+  * [Shield Study Addons (`webExtensionExperiments`)](experiments/shield_study_engineering.md)
+  * [`shield-studies` and `shield-studies-addons` Telemetry Pings / Data Set](datasets/shield.md)
 
 ## Missing Documentation
 

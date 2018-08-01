@@ -1,7 +1,8 @@
-* [Firefox Data Documentation](introduction.md)
+* [About Firefox Data Documentation](introduction.md)
   * [Reporting a problem](concepts/reporting_a_problem.md)
   * [Terminology](concepts/terminology.md)
-* [Getting Started](concepts/getting_started.md)
+
+* [Getting Started with Data Analysis](concepts/getting_started.md)
   * [Analysis Quick Start](concepts/analysis_intro.md)
   * [Choosing a Dataset](concepts/choosing_a_dataset.md)
   * [Intro to STMO](tools/stmo.md)
@@ -9,8 +10,7 @@
   * [Optimizing Queries](concepts/sql_optimization.md)
   * [Getting Review](concepts/review.md)
   * [Collecting New Data](datasets/new_data.md)
-  * [Experimentation using Shield](concepts/experimentation_using_shield.md)
-  * [Off-Train Deployment Using Delivery Console](concepts/off_train_deployment.md)
+
 * [Tools](tools/README.md)
   * [Project Glossary](tools/projects.md)
   * [Overview of Mozilla's Data Pipeline](/concepts/pipeline/data_pipeline.md)
@@ -20,7 +20,6 @@
   * [Analysis Interfaces](tools/interfaces.md)
   * [Custom analysis with Spark](tools/spark.md)
   * [SQL Style Guide](concepts/sql_style.md)
-  * [Shield](concepts/shield.md)
 * [Cookbooks](cookbooks/README.md)
   * [Alerts](tools/alerts.md)
   * [Working with Parquet Data on ATMO Clusters](cookbooks/parquet.md)
@@ -38,28 +37,26 @@
     * [Active DAU Definition](cookbooks/active_dau.md)
     * [Retention Analysis](cookbooks/retention.md)
 
-* [Experimenting and Evidence (Shield)](concepts/experiments/index.md)
+--- 
 
-  * [Shield Program Overview](concepts/experiments/experimentation_using_shield.md) 
+* [Experimenting and Evidence (Shield Program)](experiments/shield_design_process.md)
 
-  Tasks 
+  * **Needs**
+   
+      * [I feel confused.](experiments/shield_help.md)
+      * [What Do I do next?](experiments/what_next.md)
+      * [I want to get to 100% of Release](experiments/release_100_percent.md)
+      * [I need to make a decision.](experiments/shield_design_process.md)
+      * [I need to deploy off trains](experiments/off_train_deployment.md)
+      * [What Design Do I Need?](experiments/shield_design_process.md)
+      * [I need a shield study]()
+
+  * **Special Topics**
   
-  * [I need help.](concepts/experiments/get_help.md)
-  * [I need to make a decision using evidence.](concepts/experiments/index.md)
-  * [I need a Shield Study.](concepts/experiments/need_shield_study.md)
-  * [Deploy Off-Train Using Delivery Console.](concepts/experiments/off_train_deployment.md)
-  * [Deploy Targeted Hotfix]()
-  * [Slowly Rollout a Preference]()
-  * [Surveys, Messaging, and Other User Feedback Tasks]()
-  * [Is My Project On Track?](concepts/experiments/is_my_project_on_track.md)
-  * [What do I do next?]()
-
-  Technical References
-  
-  * [Shield Study WebExtension Engineering](concepts/experiments/shield_study_engineering.md)
-  * [Deploying Code](concepts/experiments/deploying_code.md)
-  * [Telemetry datasets `shield-study` and `shield-study-addon`]()
-
+      * [Off-train Deployment (using Delivery Console)](experiments/off_train_deployment.md)
+      * [Attitudinal Research:  Surveys, Screenshots, and Tasks](experiments/shield_surveys.md)
+      * [Shield Study WebExtension Engineering](experiments/shield_study_engineering.md)
+      * [Telemetry datasets `shield-study` and `shield-study-addon`](datasets/shield.md)
 
 ---
 
@@ -101,3 +98,4 @@
   * [Contributing](meta/contributing.md)
   * [Bug Template](https://bugzilla.mozilla.org/enter_bug.cgi?assigned_to=nobody%40mozilla.org&bug_file_loc=http%3A%2F%2F&bug_ignored=0&bug_severity=normal&bug_status=NEW&cf_fx_iteration=---&cf_fx_points=---&component=Documentation%20and%20Knowledge%20Repo%20%28RTMO%29&contenttypemethod=autodetect&contenttypeselection=text%2Fplain&defined_groups=1&flag_type-4=X&flag_type-607=X&flag_type-800=X&flag_type-803=X&flag_type-916=X&form_name=enter_bug&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=Linux&priority=--&product=Data%20Platform%20and%20Tools&rep_platform=x86_64&target_milestone=---&version=unspecified)
   * [Structure](meta/structure.md)
+

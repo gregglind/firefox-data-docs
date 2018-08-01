@@ -1,12 +1,12 @@
 # How You Get Code To 100% Of Release
 
-_Warning: this is written by NOT a Release Manager, and has not (yet) been vetted.  Reflects state of the world on 2018/07/19._
+_Warning_: this is written by NOT a Release Manager, and has not (yet) been vetted.  Reflects state of the world on 2018/07/19.
 
 You have code.  You (eventually) want it to get to 100% of release, if it is good.
 
-There are two paths.
+There are several paths.
 
-1. Trains (Current Release Process):
+1. **Trains** (Current Release Process):
 
   Manages risk by
 
@@ -24,7 +24,7 @@ There are two paths.
     - hard to rollback
     - typically "all or nothing" in a release
 
-2. Delivery Console (preffed off features and/or WebExtensionsExperiments)
+2. **Delivery Console** (preffed off features and/or WebExtensionsExperiments)
 
   Manages risk
 
@@ -37,20 +37,14 @@ There are two paths.
   - development (sometimes) out of tree
   - (currently) hard to test
 
-3. Hybrid Explorations
+3. **Hybrid Explorations**
 
   - Path: Modules / code lives in tree (Pref))
   - The rollout is controlled by rolling out the Pref
 
 
 All methods have
+
 - QA plans
 - RelMan oversight
 - Peer review
-
-===
-
-Hey, was thinking about how On and off train deployment are ways of managing different classes of risk.
-
-Off-train, the major risk to manage is:  ‘users won’t like the idea’
-on-train, the major risk to clear is:  ’this doesn’t play well with the rest of the code / will take a while to find the bugs / improve / complete.

@@ -1,21 +1,27 @@
-# I want to deploy yesterday
-
-_A Primer on Off-Train Deployment using Delivery Console_
+# I want to deploy yesterday.
 
 Also known as:  "Deploy using Shield"
 
-**Deployment Console** powers all the magic for off-train deployment.
+- [Delivery Console](https://delivery-console.readthedocs.io/en/latest/) powers all the magic for off-train deployment.
+
 
 ## When to deploy ON the train (which is most of the time)
 
-- The idea is obviously correct 
+- The idea is obviously correct.
   - true bug fixes
   - new css selectors
+
+- Primary iteration risk is **technical risk**.
 - Going through the trains will catch crashes, bugs, etc.
 
 ## Why Deploy Off-Train
 
-- You need evidence from actual Release users to make a product /feature decision
+- **Control Opportunity Risk**
+
+  + A business need to 'go now', for something that doesn't require a full point release or version.
+  + The Feature can be packaged in a way that allows off-train deployment. (Addon, preference, message with link).
+
+- **Control User Acceptance Risk** You need evidence from actual Release users to make a product /feature decision
   
   Examples:
 
@@ -24,15 +30,15 @@ Also known as:  "Deploy using Shield"
     + Idea-specific messaging Study or Survey (So, so cheap!)
   
   + Optimize a preference value or configuration
-    +  Multi-arm preference experiment.  (**Expensive**)
-    +  Choose the winning value and move to **Rollout**.
+    +  Multi-arm preference experiment.
+    +  Choose the winning value and move to **rollout**.
   
-  + Complex probes, endings, surveys => Instrumented Shield Study Addon (Super expensive, boutique, high-touch)
+  + Complex probes, endings, surveys. Instrumented Shield Study Addon (Super expensive, boutique, high-touch)
 
-- The feature is complete / ready, AND you have fears that release will be "weird in unpredictable ways".  You want to be able to 'turn it off'.
-  - Do a pref-rollout, targeting release in a version.  
+- **Control Rollout Risk** The feature is complete / ready, AND you have fears that release will be "weird in unpredictable ways".  You want to be able to 'turn it off'.
+  - Do a "Feature Gate". targeting release in a version.  
 
-- You want complex targeting.
+- **Targeting**. You want complex targeting.
 
   - Hotfix addons 
     + Example: target certain locale / geo combinations
@@ -45,20 +51,18 @@ _Is Delivery Console right for you?_
 
 You have "a thing".
 
-- is the thing a Survey or other "message with link" task.
-  
-  + Yes.
+- is the thing a Survey or other "message with link" task. => Off-train.
 
 - is 'the thing' code?
-  - the code targets nightly? 
-    - probably, land, Ride Trains, usual Peer / RelMan process.
-  - if beta / release?
+  - does code target Nightly? 
+    - use usual Peer / RelMan process.
+  - does the code target beta / release?
   
     Choose one or more:
-    - make an addon, release the addon with Deployment Console
+    - make an addon, release the addon with Delivery Console
     - Hide the feature behind a pref
-      - ride the trains, or uplift to beta
-      - control the "rollout" using Deployment Console to change the pref
+      - ride the trains, or uplift to Beta
+      - control the "rollout" using Delivery Console to change the pref
 
 ## What Actually Happens
 
@@ -80,16 +84,21 @@ When you say "deploy this USING Shield", you are actually saying:
   - preference(s) and values
   - choose semantics (experiment vs. rollout)
 
-Partial list of "things" you can deploy this way.
+
+### What I can deploy Off-Train
+
+Partial list of "things" you can rdeploy this way.
 
 - "message and a link"
   + Surveys, max-diff
   + tasks like "look at this prototype", user testing
   + invision prototypes
   + Trail Balloons:  "click here to help Firefox / try a new feature"
+
 - webExtensions 
-  - Targeted HotFixes 
-  - A/B Multivariation Studies
+  + Targeted HotFixes 
+  + A/B Multivariation Studies
+
 - Preference changes
   + Multivariation with 'revert'
   + Rollouts from small samples create the new normal
